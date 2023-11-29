@@ -48,7 +48,7 @@ Copy code
 python train.py --data_path /path/to/custom/dataset
 Contribution Guidelines
 Contributions are welcome! If you want to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md.
-![ Leaf ] (https://github.com/ankit3388/Detect_leaf_diseases/blob/main/DanLeaf2.jpg)
+![ Leaf ](https://github.com/ankit3388/Detect_leaf_diseases/blob/main/DanLeaf2.jpg)
 ## Usage
 
 To use the model for leaf disease detection, follow these steps:
