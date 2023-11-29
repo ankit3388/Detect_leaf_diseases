@@ -1,5 +1,53 @@
 # Leaf Disease Detection using Deep Learning
 
+# Overview
+
+This project aims to develop a robust deep learning model for the detection and classification of plant leaf diseases. Plant diseases can significantly impact crop yield, and early detection is crucial for effective disease management. Leveraging deep learning techniques, this project automates the process of identifying diseases in plant leaves, providing a timely and accurate solution for farmers and agriculture enthusiasts.
+
+# Features
+
+Deep Learning Model: Utilizes state-of-the-art deep learning architecture (e.g., convolutional neural networks) for accurate disease detection.
+
+Multi-Class Classification: Capable of classifying leaves into multiple disease categories, enabling a more comprehensive diagnosis.
+
+Web Interface: An interactive web interface for users to upload leaf images and receive instant disease predictions.
+
+Training Pipeline: Well-documented training pipeline for users to retrain the model on their custom datasets.
+
+# Dataset
+The model is trained on a diverse dataset containing images of plant leaves affected by various diseases. The dataset is sourced from reputable agricultural databases and is made available for reference and further research.
+
+# Requirements
+Python 3.x
+TensorFlow
+Flask (for the web interface)
+
+
+
+# Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the web interface:
+
+bash
+Copy code
+python app.py
+Visit http://localhost:5000 in your web browser.
+
+[Optional] Retrain the model:
+
+bash
+Copy code
+python train.py --data_path /path/to/custom/dataset
+Contribution Guidelines
+Contributions are welcome! If you want to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md.
+
+
+
+# Leaf Disease Detection using Deep Learning
+
 This project is a leaf disease detection system that uses deep learning techniques, including transfer learning, to identify and classify 33 different types of leaf diseases. The model has been trained on a large dataset of images and is designed to help agricultural professionals and enthusiasts diagnose plant diseases in a fast and accurate manner.
 
 ## Model Download
